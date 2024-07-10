@@ -5,6 +5,7 @@
       "use": "@vercel/next14"
     }
   ],
+  "cleanUrls": true,
   "routes": [
     {
       "dest": "/",
