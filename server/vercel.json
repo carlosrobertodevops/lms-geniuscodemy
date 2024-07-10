@@ -5,6 +5,32 @@
       "use": "@vercel/node"
     }
   ],
+  "env": {
+    "ACCESS_TOKEN": "gWlBmXNgZxaezDtx43S1MKZ6o5HDd^4#ZUNlT0gwQMuPqQN3JI",
+    "ACCESS_TOKEN_EXPIRE": 5,
+    "ACTIVATION_SECRET": "838388387666",
+    "CLOUDINARY_URL": "cloudinary://951332565954197:BYO6Sm-4uiSKBqqLouJXsZCDK20@carlos-roberto-devops",
+    "CLOUD_API_KEY": "951332565954197",
+    "CLOUD_NAME": "carlos-roberto-devops",
+    "CLOUD_SECRET_KEY": "BYO6Sm-4uiSKBqqLouJXsZCDK20",
+    "DB_URL": "mongodb+srv://carlosrobertodevops:%40crneto04@cluster0.8k8gblv.mongodb.net/LMS",
+    "NODE_ENV": "development",
+    "ORIGIN": "['http://localhost:3000/']",
+    "PORT": "8000",
+    "REDIS_URL": "rediss://default:AdDMAAIncDE4OGQ0MzZkMDg5NWE0Mjc4OGRkOGFhZTZjZDNjOWYwYXAxNTM0NTI@up-coyote-53452.upstash.io:6379",
+    "REFRESH_TOKEN": "Y8Kk5Bwg5GiKulOjb3b0!dXhvp07R6Le85l^&4S^sh677NS@X3",
+    "REFRESH_TOKEN_EXPIRE": 3,
+    "SMTP_HOST": "smtp.gmail.com",
+    "SMTP_MAIL": "carlos.roberto.devops@gmail.com",
+    "SMTP_PASSWORD": "pekk lflh riem wlnz",
+    "SMTP_PORT": 465,
+    "SMTP_SERVICE": "gmail",
+    "STRIPE_PUBLISHABLE_KEY": "pk_test_51PNJwORr1dNrXy8v0CAGVbcjeF6ARyYloTeNrNxJ3113Guc76NKHal7vjgJIqJU8PzMPd1jvqFXqSugjyjDA6JgE00hMzIYLCH",
+    "STRIPE_SECRET_KEY": "sk_test_51PNJwORr1dNrXy8vFU7edshhaiZksvUGKd2t2bmU2QFTq7Ii7h3IiZuO2rUkm0qO6lP4FDuNQhLjMNVvmKEOBXOW002JmZ3GTX",
+    "UPSTASH_REDIS_REST_TOKEN": "AdDMAAIncDE4OGQ0MzZkMDg5NWE0Mjc4OGRkOGFhZTZjZDNjOWYwYXAxNTM0NTI",
+    "UPSTASH_REDIS_REST_URL": "https://up-coyote-53452.upstash.io",
+    "VDOCIPHER_API_SECRET": "Mx3jyj9eJT85OD5MBds2WaypMiMqIOqsbCd5NCaKFl1bRVgT82PM1gqicaB6UxAJ"
+  },
   "routes": [
     {
       "dest": "/",
