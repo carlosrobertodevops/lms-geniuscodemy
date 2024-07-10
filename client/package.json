@@ -1,13 +1,4 @@
 {
-  "name": "client",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -44,5 +35,14 @@
     "utf-8-validate": "^6.0.3",
     "ws": "^8.13.0",
     "yup": "^1.2.0"
-  }
+  },
+  "name": "client",
+  "private": true,
+  "scripts": {
+    "build": "dotenv -e .env next build",
+    "dev": "dotenv -e .env next dev",
+    "lint": "next lint",
+    "start": "dotenv -e .env next start"
+  },
+  "version": "0.1.0"
 }

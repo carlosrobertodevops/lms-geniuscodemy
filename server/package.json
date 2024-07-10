@@ -42,10 +42,10 @@
   "main": "build/server.js",
   "name": "server",
   "scripts": {
-    "build": "node build/server.js --output public",
-    "dev": "ts-node-dev --respawn --transpile-only server.ts",
+    "build": "dotenv -e .env node build/server.js --output public",
+    "dev": "dotenv -e .env ts-node-dev --respawn --transpile-only server.ts",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false",
-    "start": "node build/server.js"
+    "start": "dotenv -e .env node build/server.js"
   },
   "type": "commonjs",
   "version": "1.0.0"
