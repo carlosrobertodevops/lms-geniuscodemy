@@ -1,20 +1,5 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "description": "",
-  "type": "commonjs",
-  "main": "build/server.js",
-  "engines": {
-    "node": "18.x"
-  },
-  "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only server.ts",
-    "start": "node build/server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false",
-    "build": "tsc"
-  },
   "author": "shahriar sajeeb",
-  "license": "ISC",
   "dependencies": {
     "@types/bcryptjs": "^2.4.2",
     "@types/cookie-parser": "^1.4.3",
@@ -44,9 +29,24 @@
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.1.6"
   },
+  "description": "",
   "devDependencies": {
     "@types/ejs": "^3.1.2",
     "@types/node-cron": "^3.0.8",
     "@types/nodemailer": "^6.4.9"
-  }
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "license": "ISC",
+  "main": "build/server.js",
+  "name": "server",
+  "scripts": {
+    "build": "node build/server.js --output public",
+    "dev": "ts-node-dev --respawn --transpile-only server.ts",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false",
+    "start": "node build/server.js"
+  },
+  "type": "commonjs",
+  "version": "1.0.0"
 }
