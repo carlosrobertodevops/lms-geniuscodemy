@@ -5,7 +5,6 @@
       "use": "@vercel/node"
     }
   ],
-  "cleanUrls": true,
   "routes": [
     {
       "dest": "/",
