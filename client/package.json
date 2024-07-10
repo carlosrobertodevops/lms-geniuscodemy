@@ -41,7 +41,7 @@
   "scripts": {
     "build": "dotenv -e .env next build",
     "dev": "dotenv -e .env next dev",
-    "lint": "next lint",
+    "lint": "dotenv -e .env next lint",
     "start": "dotenv -e .env next start"
   },
   "version": "0.1.0"
